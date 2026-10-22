@@ -1,0 +1,17 @@
+{
+  "routes": [
+    { "path": "/", "title": "AIET PathFinder" },
+    { "path": "/destinations", "title": "Explore Destinations" },
+    { "path": "/map", "title": "Campus Map" },
+    { "path": "/campus-3d", "title": "3D Campus" },
+    { "path": "/ar", "title": "AR Navigation" },
+    { "path": "/history", "title": "Navigation History" },
+    { "path": "/account", "title": "Account" },
+    { "path": "/assistant", "title": "AI Assistant" },
+    { "path": "/shared/:token", "title": "Shared Route" },
+    { "path": "/admin/graph", "title": "Graph Editor" },
+    { "path": "/admin/content", "title": "Campus Content" },
+    { "path": "/admin/:rest*", "title": "Admin Dashboard" },
+    { "path": "/admin", "title": "Admin Dashboard" }
+  ]
+}

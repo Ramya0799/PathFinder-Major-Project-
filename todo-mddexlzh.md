@@ -1,0 +1,217 @@
+# Project TODO
+
+- [x] Review the existing landing page structure, styles, and available components.
+- [x] Add the user-provided Alva’s campus image through managed web asset storage.
+- [x] Redesign the opening section to showcase Alva’s Institute of Engineering and Technology prominently.
+- [x] Add accessible, responsive 3D-style campus image interactions and motion controls.
+- [x] Update navigation and primary calls to action so the new college introduction is easy to explore.
+- [x] Add or update Vitest coverage for the Alva’s landing-page content.
+- [x] Verify desktop and mobile rendering, then save a published checkpoint.
+- [x] Add a smooth 360-degree rotation effect to the Alva’s campus showcase.
+- [x] Add accessible controls and reduced-motion behavior for the campus rotation.
+- [x] Verify the rotating showcase on desktop and mobile.
+- [x] Publish the verified 360-degree rotation update.
+- [x] Upload the newly provided AIET campus image to managed project storage.
+- [x] Add the new campus image as a selectable second scene in the interactive 3D showcase.
+- [x] Extend content tests and verify the multi-image showcase on desktop and mobile.
+- [x] Publish the expanded AIET campus showcase.
+- [x] Audit the current routes, assistant-related components, server procedures, and browser errors.
+- [x] Add centralized English, Kannada, Hindi, Tamil, Telugu, and Malayalam interface dictionaries with a global language selector.
+- [x] Add a server-side AI campus-assistant procedure grounded in configured PathFinder campus data.
+- [x] Add an accessible multilingual chat interface with clear loading, error, and unsupported-language states.
+- [x] Display the supported-language boundary within the assistant interface and validate it through language coverage tests.
+- [x] Add and verify explicit visible loading, assistant-error, and unsupported-language chat states.
+- [x] Add a dedicated unsupported-language assistant error code, visible chat state, and focused request validation coverage.
+- [x] Return and verify a dedicated server-side assistant error code for unsupported-language requests.
+- [x] Add browser voice input, spoken assistant responses, and a graceful unsupported-browser fallback.
+- [x] Add unit tests for language support and AI-assistant request validation.
+- [x] Verify all routes and the new assistant flow with tests, TypeScript checks, and browser-console inspection.
+- [x] Publish the multilingual AI and voice assistant upgrade.
+- [x] Trace and document the exact follow-up conversation failure across client state, server validation, AI calls, and logs.
+- [x] Add persistent conversational route state for intent, destination, source, accessibility, route, and navigation status.
+- [x] Add a centralized safe resolver for configured campus destination and source aliases.
+- [x] Handle affirmative follow-ups such as “yes” by continuing the active route-planning conversation.
+- [x] Calculate source-to-destination routes using the existing campus graph and return verified distance, time, waypoints, and instructions.
+- [x] Add route action controls for starting navigation and opening the map, 3D view, and AR guidance.
+- [x] Add route-aware spoken instructions and voice control tied to the selected navigation route.
+- [x] Verify the assistant route payload, map handoff, 3D/AR links, and voice-guidance start flow before completion.
+- [x] Add differentiated assistant, location, route, permission, and network error states without exposing sensitive details.
+- [x] Add focused tests for conversation continuation, location resolution, route calculation, and voice-guidance data.
+- [x] Verify multi-turn routing and voice guidance across supported languages, routes, logs, and responsive screens.
+- [x] Persist the active guided route and validate that it survives follow-up turns and navigation handoff.
+- [x] Add dedicated permission and network error states for speech, route launch, and assistant requests.
+- [x] Exercise the route-action controls and voice-guidance launch path for every supported language.
+- [x] Demonstrate route-action controls in the rendered assistant interface for map, 3D, AR, and start-navigation destinations.
+- [x] Add focused end-to-end coverage for assistant-selected 3D/AR links and spoken-guidance launch behavior.
+- [x] Demonstrate route guidance across every supported language beyond helper payload tests.
+- [x] Add an integration-style test from a verified assistant route through map, 3D, AR, and localized voice-action data.
+- [x] Add a deterministic UI-state test that starts voice guidance from an assistant-selected route and verifies map handoff state.
+- [x] Exercise the rendered assistant route-action flow and voice-guidance launch for each supported language.
+- [x] Add focused UI-level coverage for assistant-selected 3D and AR action activation.
+- [x] Add a rendered-flow integration test that triggers each route action and asserts navigation plus saved launch state.
+- [x] Capture concrete all-language multi-turn route and voice-guidance validation output.
+- [x] Add explicit multi-turn route-and-voice validation for all six supported languages.
+- [x] Add a rendered interaction test that triggers voice, map, 3D, and AR actions and asserts their side effects.
+- [x] Add explicit all-language multi-turn assistant tests and browser-rendered route-action activation coverage.
+- [x] Add an Assistant-page route-result panel integration test that asserts action clicks persist map-launch state and navigate correctly.
+- [x] Extract the production assistant route-result panel so it can receive browser-level interaction coverage without mocking the assistant page.
+- [x] Add a downstream map-navigation handoff test that consumes assistant-selected launch state and validates localized voice guidance per language.
+- [x] Add per-language rendered Assistant-page route-action coverage from assistant response through map and voice handoff.
+- [x] Add render-level coverage showing all assistant route actions for a verified route.
+- [x] Extract and test the map-navigation assistant-launch state consumer used by the production map page.
+- [x] Add a real Assistant-page jsdom integration test that injects a verified route response and exercises voice, map, 3D, and AR actions.
+- [x] Add a real MapNavigation jsdom handoff test that seeds assistant launch state and verifies auto-start plus localized voice setup for every language.
+- [x] Add actual Assistant-page and MapNavigation browser integration tests for all-language route-action and voice-handoff flows.
+- [x] Add a production-faithful Assistant route-result test that retains the real chat and route-result integration layers.
+- [x] Add direct tests of the production map-launch state consumer and its localized voice auto-start behavior.
+- [x] Publish the corrected conversational navigation assistant.
+- [x] Review the supplied AIET video and motion-led design reference, then define an original responsive visual system.
+- [x] Replace the opening experience with an efficient cinematic AIET campus-video hero, functional destination search, progressive storytelling, and accessible motion controls.
+- [x] Add meaningful campus exploration sections and connected entry points for map, 3D, AR, multilingual AI assistance, and route planning using configured campus data.
+- [x] Diagnose and fix the unavailable microphone experience with a reliable multilingual recording/transcription path and clear browser fallback guidance.
+- [x] Add focused tests for the redesigned landing flow and voice availability states, then validate desktop/mobile visuals, TypeScript, tests, and production build.
+- [x] Publish the verified cinematic campus and voice-experience upgrade.
+- [x] Add focused Home-page browser coverage for the cinematic video control, destination selection, and live-map handoff.
+- [x] Save the final validated cinematic campus and voice-experience release checkpoint.
+- [x] Review the existing map navigation, data models, authentication roles, and admin page before extending operational functionality.
+- [x] Define and migrate persistent data structures for user favourite routes and administrator-managed campus location and imagery content.
+- [x] Add privacy-aware live route-progress tracking with permission states, current-position display, route completion feedback, and graceful geolocation fallback.
+- [x] Let signed-in users save, view, reuse, and remove favourite configured routes from the route-planning experience.
+- [x] Build a protected administrator workflow for adding and updating campus locations, active status, navigation metadata, and managed campus imagery.
+- [x] Add focused unit and browser coverage, then validate real-time navigation states, persistence, access control, TypeScript, full tests, and production build.
+- [x] Publish the verified live navigation, favourites, and campus-management upgrade.
+- [x] Review the existing voice route interpretation, live-progress component, and favourite-route persistence contracts.
+- [x] Define and migrate safe favourite-route note and tag fields, including validation and user ownership boundaries.
+- [x] Let spoken natural-language requests such as “Navigate to the library” resolve configured locations and launch a route with multilingual feedback and fallbacks.
+- [x] Add editable notes and normalized tags to saved routes, with display, filtering, reuse, and removal controls for signed-in users.
+- [x] Add motion-safe, reduced-motion-aware transitions and state feedback to live navigation progress without changing its underlying route calculations.
+- [x] Add unit and browser coverage for voice route requests, route annotations, and live-progress states, then validate TypeScript, tests, and production build.
+- [x] Publish the verified voice, motion, and route-organization upgrade.
+- [x] Review saved-route persistence, user authorization, route handoff, QR delivery options, and current active voice-guidance behavior.
+- [x] Design and migrate ownership-safe share tokens that expose only the configured source, destination, and optional route annotations needed for a reusable shared route.
+- [x] Add signed-in sharing controls that generate, revoke, copy, and render QR codes for saved routes, plus a public shared-route landing and map-launch flow.
+- [x] Add progress-aware spoken turn-by-turn prompts that announce route start, upcoming waypoints, and arrival once per navigation session in the selected language.
+- [x] Add focused unit and browser coverage for share authorization, shared-route launch, QR presentation, and progress-triggered voice guidance, then validate TypeScript, tests, and production build.
+- [x] Publish the verified route-sharing and active-guidance upgrade.
+- [x] Add favourite-route controls and focused browser coverage to the route-planning page, alongside the live-map controls.
+- [x] Extend the administrator location workflow with explicit active-status and navigation-metadata editing plus focused browser coverage.
+- [x] Add focused non-administrator access-control coverage and browser-level geolocation progress/persistence coverage.
+- [x] Re-run the complete test suite after the final favourites, administration, and live-progress coverage edits.
+- [x] Re-run static type checking and the production build after the final integration edits, then record successful release validation.
+- [x] Correct the administrator graph editor so active live-routing status is visibly rendered as a readable state.
+- [x] Reset spoken-waypoint announcement state whenever the active route changes or rerouting occurs, and add a regression test for reroute/reset behavior.
+- [x] Add server/unit tests for share authorization and privacy boundaries: owner-only create/revoke, revoked-token failure, and annotations returned only when consented.
+- [x] Remove the unwanted second uploaded campus image from the interactive landing-page showcase, retain the primary image, and update related tests and validation.
+- [x] Add Tulu immediately after English and Kannada across the language selector, landing-page preview, assistant interface, localized route guidance, and automated coverage.
+- [x] Add accessible Tulu-script pronunciation sample buttons to the language selector with browser-speech and unavailable-audio fallback states.
+- [x] Add first-run Tulu route prompts to onboarding so new users can immediately understand campus navigation requests.
+- [x] Add focused automated coverage, validate the updated experience, and publish the Tulu samples and onboarding upgrade.
+- [x] Fix the incomplete second Tulu onboarding prompt so all three route-starting prompts are clear and production-ready.
+- [x] Publish the final verified Tulu pronunciation-sample and onboarding upgrade.
+- [x] Remove the extra arrow icon from the Find your way entry card while retaining the route-planner action, then verify the cleanup.
+- [x] Publish the verified Find your way entry-card cleanup.
+- [x] Remove the full Live entry point / Find your way card from the landing hero, preserve the primary Plan a route action, and verify the unobstructed campus video experience.
+- [x] Publish the verified unobstructed campus video hero.
+- [x] Narrow the desktop hero copy to reveal more of the campus video while retaining readable hierarchy and route-planning access.
+- [x] Create a compact, touch-friendly mobile hero layout with refined spacing, typography, and primary route access.
+- [x] Validate the responsive hero through focused browser coverage, TypeScript checks, and desktop/mobile visual review.
+- [x] Publish the verified responsive hero refinement.
+- [x] Add focused Home-page regression assertions for the compact mobile CTA layout and preserved desktop route-planning access.
+- [x] Replace the landing language-preview Tulu route-sample control and completion copy with a clear English route sample, while retaining Tulu language support elsewhere.
+- [x] Update the focused sample regression and validate the revised preview.
+- [x] Publish the verified English route-sample update.
+- [x] Audit the voice-input control, selected-language handoff, browser recognition, permission handling, and recorded-audio fallback from the user’s perspective.
+- [x] Make voice capture available on demand with resilient start, stop, permission, browser-recognition, and transcription-fallback states.
+- [x] Preserve the user’s preferred supported language throughout voice transcription, route interpretation, assistant replies, and spoken guidance.
+- [x] Add focused regression coverage and validate the full multilingual voice flow.
+- [x] Publish the multilingual on-demand voice input reliability upgrade.
+- [x] Review the supplied 3D-campus requirements against the existing map, route, AR, and 3D integration points.
+- [x] Extract and verify public campus, department, facilities, and contact content from the official AIET website.
+- [x] Define a verified building-information model and a staged 3D-campus experience that does not invent architectural or indoor details.
+- [x] Integrate the approved AIET content and 3D-campus interface without disrupting existing navigation features.
+- [x] Add focused regressions and validate desktop/mobile behavior for the official AIET content upgrade.
+- [x] Add an administrator-only registry for approved GLB model uploads and per-campus-zone transform metadata, without presenting unverified models as official campus geometry.
+- [x] Publish the official AIET content and staged 3D-campus upgrade.
+- [x] Unify the staged-zone identifiers used by the administrator GLB registry and the public 3D campus scene.
+- [x] Add a regression proving an approved model for a known campus zone resolves into the public 3D explorer.
+- [x] Re-run full tests, type checking, and the production build after the approved-model zone handoff correction.
+- [x] Add a focused public 3D explorer regression proving an approved library model is consumed instead of fallback massing.
+- [x] Add explicit rendered markers that distinguish an approved GLB asset from staged fallback massing for each public campus zone.
+- [x] Re-run focused and full validation after strengthening the public approved-model branch assertion.
+- [x] Audit existing route anchors, 3D zone metadata, and administrator model-management controls for the indoor-navigation extension.
+- [x] Define a source-controlled floor-and-room data model that distinguishes verified indoor destinations from staged or unavailable locations.
+- [x] Add verified indoor route handoffs, floor/room detail display, and clear availability boundaries without inventing indoor geometry.
+- [x] Improve the administrator workspace with guided approved-GLB upload, validation, replacement, activation, and metadata management controls.
+- [x] Add focused unit and browser regressions and validate the full application for the indoor wayfinding and model-management upgrade.
+- [x] Publish the verified indoor wayfinding and model-management upgrade.
+- [x] Audit existing verified indoor-location records, storage procedures, 3D explorer controls, and administrator model lists for the overlay and search extension.
+- [x] Define a source-controlled floor-plan overlay model that is visible only after authorised campus verification and publication.
+- [x] Add an accessible user-facing 3D explorer search for published, verified rooms and buildings.
+- [x] Add administrator search and filters for registered GLB models, including zone, lifecycle status, and publication state.
+- [x] Add focused tests and validate desktop/mobile workflows for the floor-plan overlay and search enhancement.
+- [x] Publish the verified floor-plan overlay and search enhancement.
+- [x] Audit existing floor-plan overlays, verified indoor locations, route anchors, and overlay display controls for the priority-office extension.
+- [x] Define a source-controlled priority-office floor-plan upload and approval workflow without fabricating campus-office plans.
+- [x] Add verified aliases and common terms to public room and building search while maintaining publication boundaries.
+- [x] Link approved overlay markers only to configured indoor route steps and preserve existing route guidance behavior.
+- [x] Add focused tests and validate the full application and responsive flows for the priority-office indoor navigation upgrade.
+- [x] Publish the verified priority-office indoor navigation upgrade.
+- [x] Keep campus-authorised priority-office floor-plan imagery gated because no verified source files were provided; do not fabricate indoor plans.
+- [x] Inspect the supplied official AIET website for publicly available building, office, floor-plan, and suitable image material.
+- [x] Record source quality and distinguish verifiable public campus facts from insufficient floor-plan evidence.
+- [x] Integrate only source-backed campus content that is suitable for the verified indoor-navigation workflow.
+- [x] Validate the official-source record while keeping unverified indoor layouts excluded.
+- [x] Publish the official-source assessment and verified data boundary.
+- [x] Inspect and compare the established AIET institutional website for public campus, facilities, office, and floor-plan material.
+- [x] Record source consistency and distinguish verified public facts from insufficient indoor-layout evidence.
+- [x] Integrate only source-backed material suitable for PathFinder’s verified navigation workflow.
+- [x] Validate the established-site source record while preserving the no-fabrication boundary for indoor layouts.
+- [x] Publish the established-site source assessment and verified data boundary.
+- [x] Review the official new.aiet.org.in library gallery and related campus-life galleries for attributable image candidates.
+- [x] Select only source-safe official gallery images and document their intended PathFinder use and accessibility metadata.
+- [x] Integrate selected official campus-life gallery images into the public PathFinder experience with source-aware captions.
+- [x] Add regression coverage and validate the official gallery integration with focused and full tests, TypeScript, production build, and responsive visual review.
+- [x] Publish the verified official AIET gallery update.
+- [x] Review the supplied 3D-property reference and identify appropriate interaction, hierarchy, and layout patterns for PathFinder.
+- [x] Define a source-safe 3D-property-inspired campus-explorer composition that reuses approved models, verified zones, and existing route handoffs.
+- [x] Implement the refined interactive 3D campus presentation without implying unverified AIET geometry or indoor details.
+- [x] Add regression coverage and validate the 3D-property-inspired campus refinement with focused and full tests, TypeScript, production build, and desktop/mobile review.
+- [x] Publish the verified 3D-property-inspired campus refinement.
+- [x] Review the current assistant navigation placement, labels, and visual identity components.
+- [x] Upload the supplied robot image through managed storage and define accessible Alvas Robo identity metadata.
+- [x] Move the assistant navigation entry to the far-right desktop utility area and rename it Alvas Robo without disrupting assistant routes.
+- [x] Add the Alvas Robo image treatment to the assistant experience and preserve mobile navigation usability.
+- [x] Add regression coverage and validate the Alvas Robo refinement with focused and full tests, TypeScript, production build, and desktop/mobile review.
+- [x] Publish the verified Alvas Robo refinement.
+- [x] Inspect the supplied brief, campus photographs, and presentation to identify accurate content and the intended group-photo replacement.
+- [x] Document which supplied photos can be used as source-safe visual landmarks without creating unverified map coordinates, floor assignments, or route steps.
+- [x] Upload selected campus photographs to managed storage and replace the existing rotating showcase with the user-designated group photo.
+- [x] Integrate a refined source-aware campus photo experience and improve the visual design while preserving the existing navigation system.
+- [x] Add regression coverage and validate the campus-photo refinement with focused and full tests, TypeScript, production build, and desktop/mobile review.
+- [x] Publish the verified campus-photo refinement.
+- [x] Audit the attached redesign brief against the existing landing, navigation, map, 3D, AR, VR, assistant, and landmark surfaces.
+- [x] Define a cohesive PathFinder visual system and prioritize presentation-only improvements that preserve working behavior.
+- [x] Implement the prioritized visual and UX refinements without changing core navigation, routing, database, APIs, AR, 3D, VR, authentication, assistant, or voice logic.
+- [x] Add regression coverage and validate responsive presentation and preserved functionality with full tests, TypeScript, production build, and visual review.
+- [x] Publish the verified visual redesign refinement.
+- [x] Audit the attached realistic-AIET 3D requirements against the existing approved models, verified campus data, route graph, and photo archive.
+- [x] Define a safe digital-twin enhancement plan that distinguishes approved, staged, and awaiting-campus-survey geometry.
+- [x] Improve the existing 3D explorer with realistic miniature presentation controls, model/photo context, and source-status clarity without inventing campus geometry or route data.
+- [x] Add regression coverage and validate 3D and preserved navigation flows with focused/full tests, TypeScript, production build, and desktop/mobile visual review.
+- [x] Publish the verified digital-twin enhancement.
+- [x] Review the existing floor-plan approval and public-display safeguards for a staged/demo floor mode.
+- [x] Define non-authoritative demo floors with explicit labels and no real room, office, coordinate, or route claims.
+- [x] Implement a staged floor-plan preview while keeping verified overlays and route-linked markers isolated.
+- [x] Add regression coverage and validate the demo-floor safeguards and preserved navigation flows with focused/full tests, TypeScript, production build, and desktop/mobile review.
+- [x] Publish the staged floor experience as a clearly labelled demo with no routing or real-room claims.
+- [x] Review the supplied Bruno Simon interaction brief and extract spatial-navigation principles without copying portfolio branding or assets.
+- [x] Turn the existing 3D explorer into a spatial command surface with first-run onboarding, destination search, route preview, orientation panel, and camera/quality controls.
+- [x] Add a clearly labelled illustrative route visualization while keeping verified route truth in the existing PathFinder graph and 2D handoff.
+- [x] Add focused regression coverage for onboarding dismissal, route preview state, and performance quality controls.
+- [x] Validate the immersive 3D interaction layer with 133 automated tests, TypeScript, production build, and desktop/mobile visual review.
+- [x] Publish the immersive spatial-navigation layer.
+- [x] Persist the verified live-navigation snapshot from Map Navigation and add a direct live-3D handoff without exposing route geometry beyond session scope.
+- [x] Hydrate live GPS progress in the 3D explorer and add graph-derived turn-by-turn camera/scene cues with accuracy and completion states.
+- [x] Load only the selected approved GLB, default mobile quality to medium, preserve lazy route loading, and retain lightweight staged fallback massing.
+- [x] Harden administrator asset intake with magic-byte validation, lossless GLB structural optimization, forced private drafts, and explicit upload-review UI copy.
+- [x] Add focused coverage for live handoff snapshots and secure asset optimization, then re-run 139 tests, TypeScript, production build, and diff validation.
